@@ -17,9 +17,9 @@ import { lusitana } from '@/app/ui/fonts';
 export default function AcmeLogo() {
   return (
     <div className={`${lusitana.className} flex flex-row items-center leading-none text-white `}>
-      <div className="flex flex-col items-center">
-          <span className="text-[62px] transform rotate-[185deg]">🗸🗸</span>
-          <p className="text-[32px] pt-2">VectorSearch</p>
+      <div className="flex items-center">
+          <span className="text-[48px] transform rotate-[185deg]">🗸</span>
+          <p className="text-[28px] pl-1 pt-8">VectorSearch</p>
       </div>
     </div>
   );
